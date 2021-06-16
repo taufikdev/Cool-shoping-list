@@ -22,10 +22,11 @@
                 <div class="txtholder">Enter your phone number (required)</div>
             <div style="display:flex" id="phoneinputs">
                 <select name="" id="" class="selecto">
-                     <option value="volvo">+212</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+                     <option value="morocco">+212</option>
+                    <option value="us">+1</option>
+                    <option value="egypt">+90</option>
+                    <!-- this shoul be filled with a json file -->
+                    <option value="france">+33</option>
                 </select> 
                 <input type="text"  placeholder="Phone number"></div>
                 </div>

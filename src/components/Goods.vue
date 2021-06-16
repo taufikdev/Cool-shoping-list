@@ -9,7 +9,7 @@
        <transition-group name="list" leave-active-class="animated bounceOutRight" enter-active-class="animated bounceInUp" >
        <li v-for="(data,index) in goods" :key='index'>
          <div><i class="fa fa-caret-right"></i> {{ data.good }} </div>
-         <div style="text-align: center;margin-left:450px;">
+         <div style="text-align: center;margin-left:450px; display:flex">
           <button v-on:click="editGood(index)" class="coolBtn2" >Edit</button>
            <button v-on:click="deleteGood(index)" class="coolBtn">Delete</button>
           </div>
@@ -121,7 +121,6 @@ export default {
     border-radius: .2em;
     /* margin-left: 500px; */
     box-shadow:1px 1px 1px 1px rgb(207, 63, 63);
-   
    
   }
   .coolBtn2{

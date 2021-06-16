@@ -3,7 +3,7 @@
     <!-- <goods /> -->
     <nav>
       <router-link class="niceLink" to="/">Home</router-link>
-      <router-link class="niceLink" to="/about">Details comming soon...</router-link>
+      <router-link class="niceLink" to="/about">interface "Commendez une course" </router-link>
     </nav>
     <router-view/>
   </div>
