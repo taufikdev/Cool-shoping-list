@@ -1,28 +1,54 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <goods /> -->
+    <nav>
+      <router-link class="niceLink" to="/">Home</router-link>
+      <router-link class="niceLink" to="/about">Details comming soon...</router-link>
+    </nav>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Goods from './components/Goods.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Goods
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  background-color: #EEEEEE;
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+ padding-top: 5opx;
+}
+body, html {
+  margin: 0;
+  height: 100%;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    width: 50%;
+}
+nav {
+  padding: 20px 20px 20px 0;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  background: #323333;
+  border-radius: .6em;
+  color: rgb(215, 221, 230);
+  font-weight: bold;
+  margin-right: 15px;
 }
 </style>
