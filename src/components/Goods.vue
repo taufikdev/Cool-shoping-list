@@ -8,9 +8,9 @@
      <ul>
        <transition-group name="list" leave-active-class="animated bounceOutRight" enter-active-class="animated bounceInUp" >
        <li v-for="(data,index) in goods" :key='index'>
-         <div> {{ data.good }} </div>
+         <div><i class="fa fa-caret-right"></i> {{ data.good }} </div>
          <div style="text-align: center;margin-left:450px;">
-          <button v-on:click="editGood(index)" class="coolBtn2">Edit</button>
+          <button v-on:click="editGood(index)" class="coolBtn2" >Edit</button>
            <button v-on:click="deleteGood(index)" class="coolBtn">Delete</button>
           </div>
           
@@ -64,6 +64,7 @@ export default {
 
 <style scoped>
 @import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
  .holder {
     /* background: #fff; */
     margin: auto;
