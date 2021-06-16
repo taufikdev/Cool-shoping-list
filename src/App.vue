@@ -46,9 +46,9 @@ nav a {
   padding: 10px;
   text-decoration: none;
   background: #323333;
-  border-radius: .6em;
+  border-radius: .2em;
   color: rgb(215, 221, 230);
-  font-weight: bold;
+  font-weight: 300;
   margin-right: 15px;
 }
 </style>

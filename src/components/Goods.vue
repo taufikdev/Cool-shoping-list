@@ -86,7 +86,7 @@ export default {
     background-color: #323333;
     border-left: 8px solid #ffde26;
     font-size: 24px;
-    border-radius: .6em;
+    border-radius: .2em;
     box-shadow: 1.5px 1.5px rgb(97, 96, 96);
     margin-bottom: .3em;
   }
@@ -104,7 +104,7 @@ export default {
     margin: auto;
     width: calc(100% - 40px);
     border: 0;
-    border-radius: .6em;
+    border-radius: .2em;
     padding: 20px;
     font-size: 1.3em;
     background-color: #323333;
@@ -118,7 +118,7 @@ export default {
     background-color:#e7345b;
     width: 100px;
     height:35px;
-    border-radius: 5px;
+    border-radius: .2em;
     /* margin-left: 500px; */
     box-shadow:1px 1px 1px 1px rgb(207, 63, 63);
    
@@ -130,7 +130,7 @@ export default {
     background-color:rgb(248, 164, 39);
     width: 100px;
     height:35px;
-    border-radius: 5px;
+    border-radius: .2em;
     margin-right: 10px;
     box-shadow:1px 1px 1px 1px rgb(190, 128, 35);
     
